@@ -1,0 +1,43 @@
+button:hover {
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+.AppContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: rgb(242, 242, 240); */
+}
+.App {
+    /* border: 1px solid red; */
+    width: 70%;
+    /* background-color: white; */
+}
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerBtn {
+    /* background-color: rgb(242, 242, 240); */
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 90px;
+
+}
+.logInBtn {
+    background-color: #355c7d;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 90px;
+    /* padding: 5px 20px 5px 20px; */
+    border-radius: 7px;
+}
+
+
