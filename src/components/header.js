@@ -9,7 +9,7 @@ const Header = () => {
             <button className='headerBtn'>Upload</button>
             <button className='headerBtn'>Watch</button>
             <button className='headerBtn'>Tools</button>
-            <button className='logInBtn'>LogIn</button>
+            <button className='logInBtn'>Login</button>
         </div>
     )
 }
