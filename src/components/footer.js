@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* <h1>Field Papers</h1> */}
                 {/* <Header /> */}
 
-                <h2>Field papers</h2>
+                <h2>Field Papers</h2>
                 <div className='footerBtnContainer'>
                     <button className='footerBtn'>About</button>
                     <button className='footerBtn'>Create</button>

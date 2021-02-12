@@ -12,8 +12,6 @@ function App() {
     <div className='AppContainer'>
       <div className='App'>
         <Header />
-        {/* <hr></hr> */}
-
         <div className='welcomeContainer'>
           <div className='welcomeLeft'>
             <h1>Welcome</h1>
@@ -29,22 +27,39 @@ function App() {
 
         <section className='sectionOneContainer'>
           <div className='sectionOne'>
-            <img src={CreateImg} alt='' title='' />
-            <h4>Create an Atlas</h4>
+            <div className='center'>
+              <img src={CreateImg} alt='' title='' height='200px' width='340'/>
+            </div>
+
+            <div className='center'>
+              <h4>Create an Atlas</h4>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
+            </div>
           </div>
         </section>
 
         <section className='sectionTwoContainer'>
           <div className='sectionTwo'>
-            <h4>Take it to the field</h4>
-            <img src={FieldImg} alt='' title='' />
+            <div className='center'>
+              <h4>Take it to the field</h4>
+            </div>
+
+            <div className='center'>
+              <img src={FieldImg} alt='' title='' height='200px' width='340'/>
+            </div>
           </div>
         </section>
 
         <section className='sectionOneContainer'>
           <div className='sectionOne'>
-            <img src={NotesImg} alt='' title='' />
-            <h4>Capture your notes</h4>
+            <div className='center'>
+              <img src={NotesImg} alt='' title='' height='250' width='250'/>
+            </div>
+
+            <div className='center'>
+              <h4>Capture your notes</h4>
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
+            </div>
           </div>
         </section>
       
