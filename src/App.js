@@ -14,9 +14,10 @@ import Watch from './components/pages/watch'
 function App() {
   return (
     <Router>
-      <div className='AppContainer'>
-        {/* <div className='App'> */}
-          <Header />
+      <div className='App'>
+
+        <Header />
+
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/about' component={About}/>
@@ -25,8 +26,9 @@ function App() {
           <Route path='/uploads' component={Upload}/>
           <Route path='/watch' component={Watch}/>
         </Switch>
-        {/* </div> */}
-          <Footer />
+
+        <Footer />
+
       </div>
     </Router>
   );

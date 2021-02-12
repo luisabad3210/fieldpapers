@@ -4,35 +4,21 @@ button:hover {
 button:focus {
     outline: none;
 }
-.AppContainer {
-    /* height: 100vh; */
+.App {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-content: center; */
-    /* align-self: center; */
-    /* background-color: rgb(242, 242, 240); */
-    /* border: 1px solid red; */
 }
-.App {
-    /* border: 1px solid red; */
-    /* width: 900px; */
-    /* background-color: white; */
-    /* border: 1px solid red; */
-    /* align-self: center; */
-}
+
 .headerContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
     margin-bottom: 50px;
     width: 900px;
     align-self: center;
 }
 .headerBtn {
-    /* background-color: rgb(242, 242, 240); */
     background-color: white;
     border: none;
     height: 40px;
@@ -45,7 +31,6 @@ button:focus {
     border: none;
     height: 40px;
     width: 100px;
-    /* padding: 5px 20px 5px 20px; */
     border-radius: 50px;
 }
 
@@ -53,17 +38,14 @@ button:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .welcomeContainer {
-    /* margin-top: 50px; */
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 50% 50%;
     width: 900px;
     align-self: center;
-    /* border: 1px solid red; */
 }
 
 .welcomeRight {
@@ -71,8 +53,6 @@ button:focus {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border:  1px solid red; */
-    /* padding-top: 50px; */
 }
 
 .sectionOneContainer {
@@ -80,27 +60,21 @@ button:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .sectionOne {
-    /* border: 1px solid red; */
     width: 900px;
     align-self: center;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    /* border: 1px solid red; */
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .sectionTwoContainer {
-    /* background-color: #f0f3f5; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .sectionTwo {
@@ -109,9 +83,8 @@ button:focus {
     align-self: center;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    /* border: 1px solid red; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -146,7 +119,13 @@ button:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-self: center; */
-    /* border: 1px solid red; */
+}
 
+
+.About {
+    align-self: center;
+}
+
+.aboutContainer {
+    width: 900px;
 }
