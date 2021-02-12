@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className='AppContainer'>
-        <div className='App'>
+        {/* <div className='App'> */}
           <Header />
         <Switch>
           <Route path='/' exact component={Home}/>
@@ -25,7 +25,7 @@ function App() {
           <Route path='/uploads' component={Upload}/>
           <Route path='/watch' component={Watch}/>
         </Switch>
-        </div>
+        {/* </div> */}
           <Footer />
       </div>
     </Router>

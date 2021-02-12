@@ -7,7 +7,7 @@ import NotesImg from '../images/Sitting_On_Floor.png'
 
 const Home = () => {
     return (
-        <div>
+        <div className='Home'>
           <div className='welcomeContainer'>
             <div className='welcomeLeft'>
               <h1>Welcome</h1>

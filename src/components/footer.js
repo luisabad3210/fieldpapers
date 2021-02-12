@@ -1,5 +1,5 @@
 import React from 'react';
-// import Header from './header'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -10,17 +10,49 @@ const Footer = () => {
 
                 <h2>Field Papers</h2>
                 <div className='footerBtnContainer'>
+                    <Link to='/about'>
                     <button className='footerBtn'>About</button>
-                    <button className='footerBtn'>Create</button>
-                    <button className='footerBtn'>Upload</button>
-                    <button className='footerBtn'>Watch</button>
-                    <button className='footerBtn'>Tools</button>
-                    <button className='footerBtn'>Help</button>
+                    </Link>
+
+                    <Link to='/create'>
+                        <button className='footerBtn'>Create</button>
+                    </Link>
+
+                    <Link to='/uploads'>
+                        <button className='footerBtn'>Upload</button>
+                    </Link>
+
+                    <Link to='/watch'>
+                        <button className='footerBtn'>Watch</button>
+                    </Link>
+
+                    <Link to='/tools'>
+                        <button className='footerBtn'>Tools</button>
+                    </Link>
+
+                    {/* <Link to='/help'> */}
+                        <button className='footerBtn'>Help</button>
+                    {/* </Link> */}
+
+                    {/* <Link to='/login'> */}
                     <button className='logInBtn'>Login</button>
+                    {/* </Link> */}
                 </div>
 
-                Field Papers is built by Stamen Design  /   About the Project  /   Help
-                Map data © OpenStreetMap contributors, Toner by Stamen, Bing by Microsoft, Mapbox, or a combination thereof.Dansk Deutsch English Español Français Bahasa Indonesia Italiano 日本語 کوردی Nederlands Polski Português ру́сский Kiswahili Tagalog Українська tiếng Việt 普通话 國語Development Blog GitHub Issues Translations
+                <p>
+                    Field Papers is built by Stamen Design
+                </p> 
+                <p>
+                    Map data © OpenStreetMap contributors, Toner by Stamen, Bing by Microsoft, Mapbox, or a combination thereof
+                </p>
+                
+                <p>
+                    Dansk Deutsch English Español Français Bahasa Indonesia Italiano 日本語 کوردی Nederlands Polski Português ру́сский Kiswahili Tagalog Українська tiếng Việt 普通话 國語
+                </p>
+                
+                <p>
+                    Development Blog GitHub Issues Translations
+                </p>
             </div>
         </section>
     )

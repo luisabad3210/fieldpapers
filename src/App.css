@@ -16,10 +16,10 @@ button:focus {
 }
 .App {
     /* border: 1px solid red; */
-    width: 900px;
+    /* width: 900px; */
     /* background-color: white; */
     /* border: 1px solid red; */
-    align-self: center;
+    /* align-self: center; */
 }
 .headerContainer {
     display: flex;
@@ -28,6 +28,8 @@ button:focus {
     align-items: center;
     /* border: 1px solid red; */
     margin-bottom: 50px;
+    width: 900px;
+    align-self: center;
 }
 .headerBtn {
     /* background-color: rgb(242, 242, 240); */
@@ -47,13 +49,21 @@ button:focus {
     border-radius: 50px;
 }
 
-
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
 
 .welcomeContainer {
     /* margin-top: 50px; */
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 50% 50%;
+    width: 900px;
+    align-self: center;
+    /* border: 1px solid red; */
 }
 
 .welcomeRight {
