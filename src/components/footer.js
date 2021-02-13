@@ -30,9 +30,9 @@ const Footer = () => {
                         <button className='footerBtn'>Tools</button>
                     </Link>
 
-                    {/* <Link to='/help'> */}
+                    <Link to='/help'>
                         <button className='footerBtn'>Help</button>
-                    {/* </Link> */}
+                    </Link>
 
                     {/* <Link to='/login'> */}
                     <button className='logInBtn'>Login</button>

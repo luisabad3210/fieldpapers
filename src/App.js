@@ -10,6 +10,7 @@ import Create from './components/pages/create'
 import Tools from './components/pages/tools'
 import Upload from './components/pages/upload'
 import Watch from './components/pages/watch'
+import Help from './components/pages/help'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/tools' component={Tools}/>
           <Route path='/uploads' component={Upload}/>
           <Route path='/watch' component={Watch}/>
+          <Route path='/help' component={Help}/>
         </Switch>
 
         <Footer />
