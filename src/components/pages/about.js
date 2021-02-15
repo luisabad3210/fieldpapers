@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutUs from '../images/Fresh_Folk_Gathering.png'
 import PhoneImg from '../images/Allura_User_Interface_4.png'
+import AboutContinuation from '../images/Cool_Kids_Pitch_Meeting.png'
 
 const About = () => {
     return (
@@ -36,12 +37,11 @@ const About = () => {
                 </div>
             </section>
 
-            <section className='aboutSectionContainer2'>
-                    <div className='aboutSection'>
-                        {/* <h1>
-                            Inspiration
-                        </h1> */}
 
+            <section className='sectionTwoContainer'>
+                <div className='sectionTwo'>
+    
+                    <div className='center'>
                         <p>
                             This project is a continuation of Walking Papers, which was built for the OpenStreetMap (OSM) editing community. Field Papers allows you to print multiple-page atlases using several map styles (including satellite imagery and black and white cartography to save ink) and has built in note annotation tools with GIS format downloads. Even though you can use Field Papers without creating an account, you also have the options of collecting any atlases you make under your own username.
                         </p>
@@ -53,8 +53,13 @@ const About = () => {
                         <p>
                             Fork us on GitHub - Field Papers in an open source project hosted on GitHub.
                         </p>
+
                     </div>
-                </section>
+                    <div className='center'>
+                        <img src={AboutContinuation} alt='' title='' height='200px' width='340'/>
+                    </div>
+                </div>
+            </section>
 
 
                 <section className='aboutSectionContainer1'>
