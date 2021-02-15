@@ -4,7 +4,7 @@ const Uploads = () => {
     return (
         <div>
             <h1>
-                Uploads
+                Upload
             </h1>
         </div>
     )
