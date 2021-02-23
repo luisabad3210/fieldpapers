@@ -161,3 +161,32 @@ button:focus {
     justify-content: center;
     align-items: center;
 }
+
+.watchContainer {
+    /* border: 1px solid red; */
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.watchMapSection {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* grid-gap: 10px; */
+}
+
+.watchMapContainer {
+    border: 1px solid lightgray;
+    width: 280px;
+    height: 360px;
+    margin-bottom: 50px;
+    padding: 5px;
+
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.watchMap {
+    background-color: #f0f3f5;
+}
