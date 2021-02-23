@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom'
 const Header = () => {
     return (
         <div className='headerContainer'>
-            {/* <Link to='/'> */}
-                <h2>Field Papers</h2>
-            {/* </Link> */}
+            <Link to='/'>
+                <button className='logo'><h2>Field Papers</h2></button>
+            </Link>
 
             <Link to='/about'>
                 <button className='headerBtn'>About</button>
@@ -29,9 +29,9 @@ const Header = () => {
                 <button className='headerBtn'>Tools</button>
             </Link>
 
-            {/* <Link to='/login'> */}
+            <Link to='/login'>
             <button className='logInBtn'>Login</button>
-            {/* </Link> */}
+            </Link>
         </div>
     )
 }

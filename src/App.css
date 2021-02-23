@@ -33,7 +33,12 @@ button:focus {
     width: 100px;
     border-radius: 50px;
 }
-
+.logo {
+    color: black;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
 .Home {
     display: flex;
     flex-direction: column;

@@ -11,6 +11,8 @@ import Tools from './components/pages/tools'
 import Upload from './components/pages/upload'
 import Watch from './components/pages/watch'
 import Help from './components/pages/help'
+import Login from './components/authentication/login'
+import Signup from './components/authentication/signup'
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path='/uploads' component={Upload}/>
           <Route path='/watch' component={Watch}/>
           <Route path='/help' component={Help}/>
+          <Route path='/login' component={Login}/>
+          <Route path='/signup' component={Signup}/>
         </Switch>
 
         <Footer />

@@ -34,9 +34,9 @@ const Footer = () => {
                         <button className='footerBtn'>Help</button>
                     </Link>
 
-                    {/* <Link to='/login'> */}
+                    <Link to='/login'>
                     <button className='logInBtn'>Login</button>
-                    {/* </Link> */}
+                    </Link>
                 </div>
 
                 <p>
