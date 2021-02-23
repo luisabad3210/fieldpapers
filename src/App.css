@@ -226,3 +226,9 @@ button:focus {
 .searchInput:focus {
     outline: none;
 }
+
+.Upload, .Help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

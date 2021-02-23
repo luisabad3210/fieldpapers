@@ -1,4 +1,7 @@
 import React from 'react'
+// import Atlas from './atlas';
+// import Watch from './watch';
+import {Link} from 'react-router-dom'
 import SearchImg from '../images/Vector_search_icon.svg'
 
 const Create = () => {
@@ -10,7 +13,9 @@ const Create = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <div className='searchInputContainer'>
                         <input className='searchInput' placeholder='Search Area'></input>
-                        <button className='searchBtn'><img src={SearchImg} width='25' height='25'/></button>
+                        <Link to='/atlas'>
+                            <button className='searchBtn'><img src={SearchImg} width='20' height='20'/></button>
+                        </Link>
                     </div>
                 </div>
 
@@ -19,6 +24,7 @@ const Create = () => {
                 img
                 </div>
             </div>
+            {/* <Watch /> */}
         </div>
     )
 }
