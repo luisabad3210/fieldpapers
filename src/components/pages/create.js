@@ -10,12 +10,12 @@ const Create = () => {
             <div className='welcomeContainer'>
                 <div className='welcomeLeft'>
                     <h1>Create</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     <div className='searchInputContainer'>
                         <input className='searchInput' placeholder='Search Area'></input>
-                        <Link to='/atlas'>
+                        {/* <Link to='/atlas'> */}
                             <button className='searchBtn'><img src={SearchImg} width='20' height='20'/></button>
-                        </Link>
+                        {/* </Link> */}
                     </div>
                 </div>
 

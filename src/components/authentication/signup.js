@@ -20,7 +20,7 @@ const Signup = () => {
                 <div><button className='logInBtn'>Sign Up</button></div>
 
                 <Link to='/Login'>
-                    <div>Log In</div>
+                    <a>Log In</a>
                 </Link>
                 <div>Forgot Password?</div>
                 <div>Didnt recieve confirmation instructions</div>

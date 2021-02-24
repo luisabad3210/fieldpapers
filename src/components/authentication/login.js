@@ -16,7 +16,7 @@ const Login = () => {
                 <div><button className='logInBtn'>Login</button></div>
 
                 <Link to='/signup'>
-                    <div>Sign Up</div>
+                    <a>Sign Up</a>
                 </Link>
                 <div>Forgot Password?</div>
                 <div>Didnt recieve confirmation instructions</div>

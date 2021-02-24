@@ -8,7 +8,9 @@ const Footer = () => {
                 {/* <h1>Field Papers</h1> */}
                 {/* <Header /> */}
 
-                <h2>Field Papers</h2>
+                <Link to='/'>
+                <button className='footerlogo'><h2>Field Papers</h2></button>
+                </Link>
                 <div className='footerBtnContainer'>
                     <Link to='/about'>
                     <button className='footerBtn'>About</button>
@@ -39,20 +41,25 @@ const Footer = () => {
                     </Link>
                 </div>
 
-                <p>
-                    Field Papers is built by Stamen Design
-                </p> 
-                <p>
-                    Map data © OpenStreetMap contributors, Toner by Stamen, Bing by Microsoft, Mapbox, or a combination thereof
-                </p>
+                <hr></hr>
+
+                <div className='footetParagraph'>
+                    <p>
+                        Field Papers is built by Stamen Design
+                    </p> 
+                    <p>
+                        Map data © OpenStreetMap contributors, Toner by Stamen, Bing by Microsoft, Mapbox, or a combination thereof
+                    </p>
+                    
+                    <p>
+                        Dansk Deutsch English Español Français Bahasa Indonesia Italiano 日本語 کوردی Nederlands Polski Português ру́сский Kiswahili Tagalog Українська tiếng Việt 普通话 國語
+                    </p>
+                    
+                    <p>
+                        Development Blog GitHub Issues Translations
+                    </p>
+                </div>
                 
-                <p>
-                    Dansk Deutsch English Español Français Bahasa Indonesia Italiano 日本語 کوردی Nederlands Polski Português ру́сский Kiswahili Tagalog Українська tiếng Việt 普通话 國語
-                </p>
-                
-                <p>
-                    Development Blog GitHub Issues Translations
-                </p>
             </div>
         </section>
     )

@@ -4,6 +4,10 @@ button:hover {
 button:focus {
     outline: none;
 }
+hr {
+    border: 1px solid white;
+    border-radius: 50px;
+}
 .App {
     display: flex;
     flex-direction: column;
@@ -36,6 +40,12 @@ button:focus {
 .logo {
     color: black;
     background-color: white;
+    border: none;
+    text-decoration: none;
+}
+.footerlogo {
+    background-color: #355c7d;
+    color: white;
     border: none;
     text-decoration: none;
 }
@@ -117,6 +127,10 @@ button:focus {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+}
+
+.footetParagraph {
+    text-align: center;
 }
 
 
