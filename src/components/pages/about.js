@@ -25,7 +25,7 @@ const About = () => {
                     <div className='center'>
                         <img src={PhoneImg} alt='' title='' height='200px' width='340'/>
                     </div>
-    
+
                     <div className='center'>
                         <p>
                             Later, you can photograph each page in the atlas, and upload back into Field Papers. These photographs are called "snapshots" on the site. When you upload a snapshot, it's connected automatically to the atlas from whence it came. You can transcribe any notes you made in the field into Field Papers (as points or areas) and share the result with your friends, or download your notes for later analysis.
@@ -60,7 +60,6 @@ const About = () => {
                     </div>
                 </div>
             </section>
-
 
                 <section className='aboutSectionContainer1'>
                     <div className='aboutSection'>

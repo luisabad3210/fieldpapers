@@ -1,4 +1,5 @@
 import React from 'react'
+import HelpImg from '../images/People_of_Brooklyn_Sitting_on_Floor.png'
 
 const Help = () => {
     return (
@@ -7,12 +8,12 @@ const Help = () => {
             <div className='welcomeContainer'>
                 <div className='welcomeLeft'>
                     <h1>Help</h1>
-                    <p>Lorem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
 
                 <div className='welcomeRight'>
-                {/* <img src={} alt='' title='' width='220px' height='220px'/> */}
-                img
+                <img src={HelpImg} alt='' title='' width='150px' height='200px'/>
+                {/* img */}
                 </div>
             </div>
 
@@ -110,7 +111,7 @@ const Help = () => {
                 </div>
             </section>
 
-            <section className='aboutSectionContainer1'>
+            {/* <section className='aboutSectionContainer1'>
                 <div className='aboutSection'>
                     <h1>
                         Quick One-Pagers
@@ -120,7 +121,7 @@ const Help = () => {
                     <div>How to Make an Atlas</div>
                     <div>How to Upload a Snapshot</div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import UploadImg from '../images/Hands_Camera.png'
 
 const Uploads = () => {
     return (
@@ -12,8 +13,8 @@ const Uploads = () => {
                 </div>
 
                 <div className='welcomeRight'>
-                {/* <img src={} alt='' title='' width='220px' height='220px'/> */}
-                img
+                <img src={UploadImg} alt='' title='' width='220px' height='220px'/>
+                {/* img */}
                 </div>
             </div>
 

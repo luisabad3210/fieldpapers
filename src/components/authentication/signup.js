@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import signupImg from '../images/Allura_Freelancing.png'
 
 const Signup = () => {
     return (
         <section className='aboutSectionContainer2'>
             <div className='aboutSection'>
                 <h1>
-                    Sign Up
+                    Create an Account
                 </h1>
                 Username:
                 <div><input className='searchInput'></input></div>

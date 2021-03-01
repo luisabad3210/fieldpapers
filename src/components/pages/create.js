@@ -3,6 +3,7 @@ import React from 'react'
 // import Watch from './watch';
 import {Link} from 'react-router-dom'
 import SearchImg from '../images/Vector_search_icon.svg'
+import MapImg from '../images/Map.png'
 
 const Create = () => {
     return (
@@ -20,8 +21,8 @@ const Create = () => {
                 </div>
 
                 <div className='welcomeRight'>
-                {/* <img src={} alt='' title='' width='220px' height='220px'/> */}
-                img
+                <img src={MapImg} alt='' title='' width='150px' height='200px'/>
+                {/* img */}
                 </div>
             </div>
             {/* <Watch /> */}

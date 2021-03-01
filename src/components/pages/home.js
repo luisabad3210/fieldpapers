@@ -16,7 +16,7 @@ const Home = () => {
             </div>
   
             <div className='welcomeRight'>
-              <img src={WelcomeImg} alt='' title='' width='220px' height='220px'/>
+              <img src={WelcomeImg} alt='' title='' width='200px' height='220px'/>
             </div>
           </div>
         {/* </div> */}
@@ -24,11 +24,12 @@ const Home = () => {
           <section className='sectionOneContainer'>
             <div className='sectionOne'>
               <div className='center'>
-                <img src={CreateImg} alt='' title='' height='200px' width='340'/>
+                <img src={CreateImg} alt='' title='' height='150px' width='250'/>
               </div>
   
               <div className='center'>
-                <h4>Create an Atlas</h4>
+                <h2>Create an Atlas</h2>
+                <p>Print out anywhere in the world.</p>
                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
               </div>
             </div>
@@ -37,11 +38,12 @@ const Home = () => {
           <section className='sectionTwoContainer'>
             <div className='sectionTwo'>
               <div className='center'>
-                <h4>Take it to the field</h4>
+                <h2>Take it to the field</h2>
+                <p>Make your notes and observations.</p>
               </div>
   
               <div className='center'>
-                <img src={FieldImg} alt='' title='' height='200px' width='340'/>
+                <img src={FieldImg} alt='' title='' height='150px' width='250'/>
               </div>
             </div>
           </section>
@@ -49,11 +51,12 @@ const Home = () => {
           <section className='sectionOneContainer'>
             <div className='sectionOne'>
               <div className='center'>
-                <img src={NotesImg} alt='' title='' height='250' width='250'/>
+                <img src={NotesImg} alt='' title='' height='230' width='230'/>
               </div>
-  
+
               <div className='center'>
-                <h4>Capture your notes</h4>
+                <h2>Capture your notes</h2>
+                <p>Upload pages you've photographed.</p>
                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
               </div>
             </div>
