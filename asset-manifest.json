@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/fieldpapers/static/css/main.0c4237e0.chunk.css",
+    "main.js": "/fieldpapers/static/js/main.d70354f6.chunk.js",
+    "main.js.map": "/fieldpapers/static/js/main.d70354f6.chunk.js.map",
+    "runtime-main.js": "/fieldpapers/static/js/runtime-main.8dcbfe33.js",
+    "runtime-main.js.map": "/fieldpapers/static/js/runtime-main.8dcbfe33.js.map",
+    "static/js/2.5c183df1.chunk.js": "/fieldpapers/static/js/2.5c183df1.chunk.js",
+    "static/js/2.5c183df1.chunk.js.map": "/fieldpapers/static/js/2.5c183df1.chunk.js.map",
+    "static/js/3.6cef8d48.chunk.js": "/fieldpapers/static/js/3.6cef8d48.chunk.js",
+    "static/js/3.6cef8d48.chunk.js.map": "/fieldpapers/static/js/3.6cef8d48.chunk.js.map",
+    "index.html": "/fieldpapers/index.html",
+    "static/css/main.0c4237e0.chunk.css.map": "/fieldpapers/static/css/main.0c4237e0.chunk.css.map",
+    "static/js/2.5c183df1.chunk.js.LICENSE.txt": "/fieldpapers/static/js/2.5c183df1.chunk.js.LICENSE.txt",
+    "static/media/Allura_Exploring_on_Laptop.fd976176.png": "/fieldpapers/static/media/Allura_Exploring_on_Laptop.fd976176.png",
+    "static/media/Allura_Freelancing.60643751.png": "/fieldpapers/static/media/Allura_Freelancing.60643751.png",
+    "static/media/Allura_Social_Media.ebdd382c.png": "/fieldpapers/static/media/Allura_Social_Media.ebdd382c.png",
+    "static/media/Allura_User_Interface_4.988ea589.png": "/fieldpapers/static/media/Allura_User_Interface_4.988ea589.png",
+    "static/media/Allura_Working_Remotely.924c51cd.png": "/fieldpapers/static/media/Allura_Working_Remotely.924c51cd.png",
+    "static/media/Cool_Kids_Pitch_Meeting.80824ad1.png": "/fieldpapers/static/media/Cool_Kids_Pitch_Meeting.80824ad1.png",
+    "static/media/Croods_The_Feedback.5217c83f.png": "/fieldpapers/static/media/Croods_The_Feedback.5217c83f.png",
+    "static/media/Fresh_Folk_Gathering.4e714fc2.png": "/fieldpapers/static/media/Fresh_Folk_Gathering.4e714fc2.png",
+    "static/media/Fresh_Folk_Strolling.1e32a29c.png": "/fieldpapers/static/media/Fresh_Folk_Strolling.1e32a29c.png",
+    "static/media/Hands_Camera.9c786446.png": "/fieldpapers/static/media/Hands_Camera.9c786446.png",
+    "static/media/Map.827cf43b.png": "/fieldpapers/static/media/Map.827cf43b.png",
+    "static/media/People_of_Brooklyn_Sitting_on_Floor.656e80fc.png": "/fieldpapers/static/media/People_of_Brooklyn_Sitting_on_Floor.656e80fc.png",
+    "static/media/Sitting_On_Floor.e6832f6f.png": "/fieldpapers/static/media/Sitting_On_Floor.e6832f6f.png",
+    "static/media/Vector_search_icon.0f8dbddc.svg": "/fieldpapers/static/media/Vector_search_icon.0f8dbddc.svg",
+    "static/media/logo.6ce24c58.svg": "/fieldpapers/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dcbfe33.js",
+    "static/js/2.5c183df1.chunk.js",
+    "static/css/main.0c4237e0.chunk.css",
+    "static/js/main.d70354f6.chunk.js"
+  ]
+}
