@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter, Switch, Route} from 'react-router-dom'
 import Header from './components/header'
 import Footer from './components/footer'
 
@@ -16,7 +16,7 @@ import Signup from './components/authentication/signup'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className='App'>
 
         <Header />
@@ -36,7 +36,7 @@ function App() {
         <Footer />
 
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
